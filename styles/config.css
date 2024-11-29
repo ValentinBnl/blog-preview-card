@@ -1,0 +1,36 @@
+/* ===================
+   Fonts
+   =================== */
+@font-face {
+	font-family: "Figtree";
+	src: url("../assets/fonts/Figtree/static/Figtree-Medium.ttf")
+		format("truetype");
+	font-weight: 500; /* Medium */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Figtree";
+	src: url("../assets/fonts/Figtree/static/Figtree-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800; /* ExtraBold */
+	font-style: normal;
+}
+
+/* ===================
+   VARIABLES
+   =================== */
+
+:root {
+	/* ---Couleurs--- */
+	--color-light: #ffffff;
+	--color-lighter: ;
+	--color-dark: #6b6b6b;
+	--color-darker: ;
+	--color-primary: #111111;
+	--color-secondary: #f4d04e;
+
+	/* ---Polices--- */
+	--font-primary: "Figtree";
+	/* --font-secondary: ; */
+}
